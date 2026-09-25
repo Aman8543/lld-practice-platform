@@ -15,6 +15,7 @@ const app = express();
 app.use(
   cors({
     origin:"https://lld-practice-platform-ruddy-theta.vercel.app/",
+    credentials: true,
   })
 );
 
