@@ -8,7 +8,7 @@ const app = express();
 
 app.use(
   cors({
-    origin: [process.env.CLIENT_URL || "http://localhost:5173","https://lld-practice-platform-s5uc.onrender.com"]
+    origin:["http://localhost:5173","https://lld-practice-platform-s5uc.onrender.com"],
   })
 );
 
