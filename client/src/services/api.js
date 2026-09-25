@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "http://localhost:5000/api",
+  baseURL: ["http://localhost:5000/api","https://lld-practice-platform-s5uc.onrender.com"]
 });
 
 export const getProblems = () =>

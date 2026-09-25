@@ -6,9 +6,15 @@ import attemptRoutes from "./routes/attemptRoutes.js";
 
 const app = express();
 
+// app.use(
+//   cors({
+//     origin:"http://localhost:5173",
+//   })
+// );
+
 app.use(
   cors({
-    origin:["http://localhost:5173","https://lld-practice-platform-s5uc.onrender.com"],
+    origin:"https://lld-practice-platform-ruddy-theta.vercel.app/",
   })
 );
 
